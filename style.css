@@ -30,17 +30,17 @@ section{
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 40vh;
+    height: 60vh;
     justify-content: center;
     align-items: center;
     padding: 5vh;
-    background-color: rgb(89, 89, 156);
+    background-color: rgb(220, 235, 198);
     box-shadow: 0 8px 6px -6px black;
-    border: solid black 2px;
 }
 h3{
     text-align: center;
-    font-size: 1.5 rem;
+    font-size: 4vh;
+    padding-bottom: 6vh;
 }
 input{
     width: 40%;
@@ -60,7 +60,7 @@ button{
     border: black;
     padding: 1rem;
     border-radius: 15px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 button.btn{
     font-weight: 600;
@@ -77,4 +77,7 @@ button.btn:hover, button.btn:focus, button.btn:active{
 }
 button.btn:active{
     background-color: aqua;
+}
+.hidden{
+    display: none;
 }
